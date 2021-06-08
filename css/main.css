@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    height: 100%;
+}
+
+html,
+body {
+    font-family: 'Rubik', sans-serif;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+a,
+a:hover {
+    color: #ffffff !important;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    cursor: pointer !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+input,
+button {
+    font-family: 'Rubik', sans-serif;
+    border: none;
+    outline: none;
+    margin: 0px;
+}
+
+input:hover,
+button:hover {
+    border: 0;
+    outline: none;
+}
+
+input:focus,
+button:focus {
+    box-shadow: none !important;
+    border: none;
+    outline: none;
+}
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 1980px;
+    padding: 0 40px 0 40px;
+}
+
+
+/* base */
+
+.object-block {
+    background: url(../img/header/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navigation {
+    margin-bottom: 170px;
+}
+
+
+/* nav */
+
+.logo-header {
+    width: 160px;
+    height: 155px;
+    margin-right: 50px;
+}
+
+.list-item {
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 30px;
+    transition: 0.4s;
+}
+
+.list-item:hover {
+    transition: 0.4s;
+    transform: scale(1.06);
+    text-decoration: underline;
+}
+
+.social-elements {
+    width: 50px;
+    height: 50px;
+}
+
+.header-block {
+    margin-bottom: 100px;
+}
+
+.subtitle-header {
+    font-size: 30px;
+    letter-spacing: 2px;
+    line-height: 34px;
+}
+
+.header-title {
+    font-size: 64px;
+    line-height: 72px;
+    font-weight: 800;
+}
+
+/* .t-cover__arrow-svg {
+    z-index: 9;
+    left: 290px;
+    bottom: -130px;
+    text-align: center;
+    animation-name: arrow-down;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes arrow-down {
+    0% {
+        transition: 0.1s;
+        bottom: -130px;
+    }
+
+    30% {
+        transition: 1s;
+        bottom: -120px;
+    }
+
+    100% {
+        transition: 1s;
+        bottom: -130px;
+    }
+} */
+
+
+/* nav */
